@@ -39,3 +39,39 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# IDE - JetBrains
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.log
+.cache
+.temp
+temp/
+tmp/
+
+# Build outputs
+dist/
+.turbo/
+
+# PM2
+.pm2
+
+# Mac
+.DS_Store
